@@ -170,7 +170,7 @@ Two labels need to be defined in the cloud profile (section `spec.providerConfig
       zone: k8s-zone
 ```
 
-A Kubernetes zone can either be a vCenter or one of its datacenters
+A Kubernetes region can either be a vCenter or one of its datacenters
 
 Zones must be sub-resources of it. If the region is a complete vCenter, the zone must specify datacenter and either compute cluster or resource pool.
 Otherwise, i.e. tf the region is a datacenter, the zone must specify either compute cluster or resource pool.
